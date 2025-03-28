@@ -41,7 +41,7 @@ public class WordAnalyzer
     */
    public char firstMultipleCharacter()
    {
-      for (int i = 0; i < word.length(); i++)
+      for (int i = 0; i < word.length() + 1; i++)
       {
          char ch = word.charAt(i);
          if (find(ch, i) >= 0)
